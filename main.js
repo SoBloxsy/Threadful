@@ -6,8 +6,8 @@
 // @author       Irenfw
 // @match        https://x.com/*
 // @icon         https://icons.duckduckgo.com/ip2/x.com/ico
-// @updateURL    https://raw.githubusercontent.com/SoBloxsy/ig-unsent-message-logger/main/script.js
-// @downloadURL  https://raw.githubusercontent.com/SoBloxsy/ig-unsent-message-logger/main/script.js
+// @updateURL    https://raw.githubusercontent.com/SoBloxsy/Threadful/main/main.js
+// @downloadURL  https://raw.githubusercontent.com/SoBloxsy/Threadful/main/main.js
 // @grant        GM_addStyle
 // @run-at       document-start
 // ==/UserScript==
