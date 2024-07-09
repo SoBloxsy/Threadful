@@ -38,6 +38,7 @@ border: 1px solid hsl(213, 4%, calc(26% * (1 + 0 )));
   }
 form {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 66px;
 }
 [role=region] > div > div {
   border: 0px;
