@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Threadful
 // @namespace    http://tampermonkey.net/
-// @version      0.3
-// @description  
+// @version      0.31
+// @description  threads style theme for x.com / twitter
 // @author       Irenfw
 // @match        https://x.com/*
-// @icon         https://icons.duckduckgo.com/ip2/x.com/ico
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=x.com
 // @updateURL    https://raw.githubusercontent.com/SoBloxsy/Threadful/main/main.js
 // @downloadURL  https://raw.githubusercontent.com/SoBloxsy/Threadful/main/main.js
 // @grant        GM_addStyle
