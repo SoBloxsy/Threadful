@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Threadful
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  
 // @author       Irenfw
 // @match        https://x.com/*
