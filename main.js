@@ -9,8 +9,10 @@
 // @updateURL    https://raw.githubusercontent.com/SoBloxsy/Threadful/main/main.js
 // @downloadURL  https://raw.githubusercontent.com/SoBloxsy/Threadful/main/main.js
 // @grant        GM_addStyle
+// @grant        GM_xmlhttpRequest
 // @run-at       document-start
 // ==/UserScript==
+
 
 (function() {
   'use strict';
@@ -18,12 +20,20 @@
   // URL of the external CSS file
   var cssUrl = 'https://raw.githubusercontent.com/SoBloxsy/Threadful/main/the.css';
 
-  // Create a new link element
-  var link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.type = 'text/css';
-  link.href = cssUrl;
-
-  // Append the link element to the head
-  document.head.appendChild(link);
+  // Fetch the CSS content from the external URL
+  GM_xmlhttpRequest({
+      method: 'GET',
+      url: cssUrl,
+      onload: function(response) {
+          if (response.status === 200) {
+              // Add the CSS to the page
+              GM_addStyle(response.responseText);
+          } else {
+              console.error('Failed to load CSS from ' + cssUrl);
+          }
+      },
+      onerror: function() {
+          console.error('Error occurred while fetching CSS from ' + cssUrl);
+      }
+  });
 })();
