@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Threadful
 // @namespace    http://tampermonkey.net/
-// @version      0.31
+// @version      0.4
 // @description  threads style theme for x.com / twitter
 // @author       Irenfw
 // @match        https://x.com/*
@@ -36,4 +36,5 @@
           console.error('Error occurred while fetching CSS from ' + cssUrl);
       }
   });
+
 })();
