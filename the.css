@@ -34,7 +34,7 @@ form[aria-label="Search"] {
     border: 0px;
 }
 
-[data-testid=tweetText],
+[data-testid=tweetText], [data-testid=retweet] svg,
 a[role="link"] span {
     color: white !important;
 }
@@ -48,7 +48,7 @@ a[role="link"] span {
     color: red
 }
 
-[data-testid=retweet] svg,
+
 [data-testid="unretweet"] svg {
     color: rgb(0, 186, 124)
 }
