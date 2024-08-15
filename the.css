@@ -5,7 +5,7 @@ body {
 
 [role=region]>div>div>div article>div {
     background-color: hsla(213, 5%, calc(19% * (1 + 0)), 1);
-    border-radius: 6px;
+    border-radius: 12px;
     padding: 12px;
     border: 1px solid hsl(213, 4%, calc(26% * (1 + 0)));
 }
@@ -22,7 +22,8 @@ body {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding: 0 !important;
     margin: 8px;
-    border-radius: 6px;
+    margin-bottom: 0;
+    border-radius: 12px;
 }
 
 form[aria-label="Search"] {
@@ -114,4 +115,35 @@ div[class="css-175oi2r r-13awgt0 r-bnwqim"] {
     border-radius: 16px;
 }
 
- 
+.r-15zivkp {
+    margin-bottom: 4px;
+    margin-top: -5px;
+}
+
+.r-14gqq1x {
+    margin-top: 4px;
+    margin-bottom: -5px;
+}
+
+.r-g2wdr4 {
+    background-color: rgb(31, 31, 31);
+    border-radius: 12px;
+}
+
+[data-testid="tweetButtonInline"] {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+[data-testid="tweetButtonInline"] span{
+    color: black !important;
+}
+/* post your reply box */
+div[class="css-175oi2r r-kemksi r-184en5c"] {
+    margin: 8px;
+    margin-bottom: 0;
+    border-radius: 12px;
+    border: 1px solid hsl(213, 4%, calc(26% * (1 + 0)));
+}
+div[class="css-175oi2r r-kemksi r-184en5c"] div {
+    border-radius: 12px;
+}
