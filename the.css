@@ -130,8 +130,16 @@ div[class="css-175oi2r r-13awgt0 r-bnwqim"] {
     border-radius: 12px;
 }
 
-[data-testid="tweetButtonInline"] {
+[data-testid="tweetButtonInline"]{
     background-color: rgb(255, 255, 255) !important;
+}
+
+[aria-label="New posts are available. Push the period key to go to the them."] {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+[aria-label="New posts are available. Push the period key to go to the them."] span {
+    color: black !important;
 }
 
 [data-testid="tweetButtonInline"] span{
