@@ -1,3 +1,3 @@
 ## Threadful theme for twitter
 *turn darkmode on or the theme will not work*
-![image](https://github.com/SoBloxsy/Threadful/assets/45794556/835cf161-b7bb-4d0e-b46d-6f1843cce7a3)
+![image](https://github.com/user-attachments/assets/a9163e86-03e1-48f9-96eb-d379dadf3ffc)
